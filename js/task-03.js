@@ -14,8 +14,6 @@ const images = [
 ];
 
 const gallery = document.querySelector('.gallery');
-
-
  const galleryItems = ({ url, alt }) =>
   `<li><img src="${url}" alt="${alt}" width = 300 height = auto></li>`;
 const galleryMarkup = images.reduce(
