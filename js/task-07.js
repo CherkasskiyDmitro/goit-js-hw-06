@@ -6,6 +6,9 @@ const textRef = document.getElementById('text');
 const fontSizeControl = () => {
   textRef.style.fontSize = `${inputRangeRef.value}px`;
 };
-
+fontSizeControl()
 
 inputRangeRef.addEventListener("input", fontSizeControl);
+
+
+

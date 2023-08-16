@@ -10,7 +10,7 @@ function handleFormSubmit(element) {
 
   const {
     elements: { email, password },
-    } = e.currentTarget;
+    } = element.currentTarget;
 
 
   if (!email.value.trim() || !password.value.trim()) {
